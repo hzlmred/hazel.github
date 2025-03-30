@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width=1.0">
+    <title>My blog</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0%;
+            background-color: white;
+        }
+        header{
+            background-color: blue;
+            color: #fff;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 1rem;
+        }
+        header h1{
+            font-size: 2.5rem;
+        }
+        nav ul {
+        list-style: none;
+        padding: 0;
+        }
+
+        nav ul li {
+        display: inline;
+        margin: 0 15px;
+        }
+
+        nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+        }
+        nav ul li a:hover {
+        color: #f4f4f4;
+        text-decoration: underline;
+        }
+        main{
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+        color: #35424a;
+        }
+
+        h2 {
+        border-bottom: 2px solid #35424a;
+        padding-bottom: 10px;
+        }
+        section{
+            margin-bottom: 20px;
+        }
+        iframe {
+        display: block;
+        margin: 0 auto 20px;
+        border-radius: 8px;
+        }
+
+        footer{
+            text-align: center;
+            padding: 1;
+            background-color: #333;
+            color: #fff;
+            position: center;
+            width: 100% ;
+            bottom: 0;
+        }
+        aside {
+        background: #e2e2e2;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 20px;
+        }
+
+        aside h2 {
+        color: #35424a;
+        }
+
+        aside p {
+        margin: 0;
+        }
+
+    </style>
+    </head>
+    <body>
+        <header>
+        <h1>Welcome to my blog!</h1>
+        </header>
+        <nav>
+            <ul><center>
+                <a href="#about">About</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </center>
+            </ul>
+        </nav>
+        <main>
+            
+            <article id="blog">
+            <h2>HTML Tutorial for Beginners</h2>
+            <p>Here's a video i found very useful in learning HTML for Beginners</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU?si=9z5bfHeaDAs1jird" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+            </article>
+
+            <section>
+                <h2>University Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3925.6000599022223!2d123.89503635392457!3d10.29377288733028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1743360395063!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+            <section>
+                <h2>Clickable Image Map</h2>
+                <p>Click on the image to explore two external resources:</p>
+                <img src="via.placeholder.com/800x400" alt="Clickable Image Map" usemap="#resource-map" class="image-map"> <map name="resource-map"> 
+                    <area shape="rect" coords="0, 0, 400, 200" alt="w3schools" href="w3schools.com" target="_blank">
+                    <area shape="rect" coords="400, 0, 800, 200" alt="freecodcamp" href="freecodcamp.org" target="_blank"> </map>
+            </section>
+
+            <section>
+                <h2>My Favorite Emojis</h2>
+                <ul>
+                    <li>&#x1F44D; Thumbs Up</li>
+                    <li>&#128540; Face with stuck-out tongue and winking eye</li>
+                    <li>&#128557; Crying face</li>
+                </ul>
+            </section>
+            <aside id="about">
+                <h2>About us</h2>
+                <p>Hello! I am Renavi R. Abellana. I want to pursue coding to enhance my skills and i want to explore more.</p>
+                <p>I am studying programming and i want to learn more about coding. To know more about me yoou may visit this page</p>
+                <br>
+                <p>Hello! I am Hazel Marie A. Dacua, and I am an IT student with a desire to learn more about the world of technology and programming.</p>
+            </aside>
+            
+            <footer>
+                <p>&copy; 2025 My blog. All rights reserved</p>
+            </footer>
+
+    </body>
+</html>
